@@ -10,3 +10,4 @@ public interface TransactionRepository extends JpaRepository<Transaction, Long> 
 
     List<Transaction> findByMemberId(Long memberId);
 }
+//changes to merge feature branch to main branch
