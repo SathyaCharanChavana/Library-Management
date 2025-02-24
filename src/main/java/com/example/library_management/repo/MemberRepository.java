@@ -8,3 +8,4 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     // Custom query methods can be added if needed
     Member findByEmail(String email);
 }
+//changes to merge feature branch to main branch

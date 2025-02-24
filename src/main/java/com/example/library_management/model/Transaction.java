@@ -15,7 +15,7 @@ public class Transaction {
     @ManyToOne
     @JoinColumn(name = "book_id", nullable = false)
     private Book book;
-
+    //changes to merge feature branch to main branch
     @ManyToOne
     @JoinColumn(name = "member_id", nullable = false)
     private Member member;

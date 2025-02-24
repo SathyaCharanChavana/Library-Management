@@ -14,7 +14,7 @@ public class Member {
 
     @Column(nullable = false)
     private String lastName;
-
+    //changes to merge feature branch to main branch
     @Column(unique = true, nullable = false)
     private String email;
 
